@@ -1,0 +1,33 @@
+{
+  "name": "project-x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "run-script-os": "^1.0.2"
+  },
+  "scripts": {
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --port 7777",
+    "//": "Hello! If you are having trouble running this command. Try changing Firefox Developer Edition to FirefoxDeveloperEdition",
+    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drat47/Project-X.git"
+  },
+  "keywords": [
+    "Valentine",
+    "Wish"
+  ],
+  "author": "Dharmesh Singhal",
+  "modification": "Drat47",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Drat47/Project-X/issues"
+  },
+  "homepage": "https://github.com/Drat47/Project-X#readme",
+  "dependencies": {}
+}
