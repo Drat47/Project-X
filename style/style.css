@@ -195,35 +195,6 @@ span {
 );
 }
 
-.six::before {
-  content: "";
-  position: absolute;
-  width: 4.8cm;
-  height: 4.8cm;
-  background: red;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
-  border-radius: 20px;
-  z-index: 1;
-  filter: blur(8px);
-}
-
-/* Heart top circles */
-.six::after {
-  content: "";
-  position: absolute;
-  width: 4.8cm;
-  height: 4.8cm;
-  background: red;
-  border-radius: 50%;
-  top: 15%;
-  left: 25%;
-  z-index: 1;
-  filter: blur(8px);
-}
-
-
 .six .hat {
   position: absolute;
   width: 80px;
