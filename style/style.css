@@ -186,18 +186,13 @@ span {
 }
 
 .six img {
-  width: 4cm;
-  height: 4cm;
+  width: 10cm;
+  height: 10cm;
   object-fit: cover;
-  display: inline-block;
-  position: relative;
-  z-index: 2;
-}
 
-/* Heart shadow behind image */
-.six {
-  position: relative;
-  display: inline-block;
+  clip-path: path("M50 90 
+ C20 60, 0 40, 25 20 C40 5, 50 20, 50 20 C50 20, 60 5, 75 20 C100 40, 80 60, 50 90 Z"
+);
 }
 
 .six::before {
