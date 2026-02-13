@@ -26,3 +26,24 @@ Stay happy and keep the people you care about happy. :)
 
 #### OwnerShip
  The animations used in the Repository is created by LOVER CHEESSEE.:smile:
+
+## How to Run
+
+1.  **Install Dependencies**:
+    Open a terminal in the project directory and run:
+    ```bash
+    npm install
+    ```
+
+2.  **Start the Application**:
+    Run the following command to start the development server:
+    ```bash
+    npm start
+    ```
+    Or specifically for Windows:
+    ```bash
+    npm run start:win32
+    ```
+
+3.  **Access the Application**:
+    The application should automatically open in your default browser at [http://localhost:7777](http://localhost:7777).

@@ -186,13 +186,10 @@ span {
 }
 
 .six img {
-  width: 10cm;
-  height: 10cm;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
-
-  clip-path: path("M50 90 
- C20 60, 0 40, 25 20 C40 5, 50 20, 50 20 C50 20, 60 5, 75 20 C100 40, 80 60, 50 90 Z"
-);
+  clip-path: url(#heart-clip);
 }
 
 
@@ -288,9 +285,11 @@ span {
 }
 
 .wish-hbd {
-  font-size: 3em;
+  font-size: calc(3em - 2px);
   margin: 0;
   /* text-transform: uppercase; */
+  position: relative;
+  top: -2px;
 }
 
 .wish h5 {
